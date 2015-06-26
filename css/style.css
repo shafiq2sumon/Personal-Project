@@ -1,0 +1,60 @@
+/* Nav CSS Starts */
+.navbar-default {
+    background-color: #000000;
+    border-color: #000000;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: coral;
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: red;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    background-color: coral;
+    color: #fff;
+}
+.dropdown-menu{
+    padding: 0px 0px;
+}
+.dropdown-menu > li > a{
+    color: #333;
+    border-bottom: 1px solid #cccccc;
+    padding: 15px 15px;
+}
+.dropdown-menu > li > a:hover{
+    background: coral;
+    color: #fff;
+}
+.dropdown-menu > li:last-child a{
+    border-bottom: none;
+}
+.navbar {
+    border-radius: 0px;
+}
+/* Nav CSS Ends */
+
+/* Slider Starts*/
+.slider{
+    margin-top: -20px;
+}
+.nav{
+    padding-left: 15px;
+}
+/* Accordion */
+a:focus,a:hover{
+    text-decoration: none;
+}
+.panel-default > .panel-heading {
+    background-color: #382A29;
+    border-color: #ddd;
+    color: #fff;
+}
+.panel-group .panel {
+    border-radius: 0px;
+   
+}
