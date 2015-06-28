@@ -58,3 +58,7 @@ a:focus,a:hover{
     border-radius: 0px;
    
 }
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd;
+    text-align: justify;
+}
