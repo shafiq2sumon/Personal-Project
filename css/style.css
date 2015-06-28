@@ -54,11 +54,12 @@ a:focus,a:hover{
     border-color: #ddd;
     color: #fff;
 }
-.panel-group .panel {
-    border-radius: 0px;
-   
-}
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
     border-top-color: #ddd;
     text-align: justify;
+}
+
+.panel-group .panel {
+    border-radius: 0px;
+   
 }
